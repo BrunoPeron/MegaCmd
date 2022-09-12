@@ -1,0 +1,27 @@
+{
+    "name": "bruno-peron/megacmd",
+    "description": "integration for megacmd",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "bruno",
+            "email": "bruno.peron@unochapecoedu.br"
+        }
+    ],
+    "require-dev": {
+
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MegaCMD\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MegaCMDTest\\": "tests/"
+        }
+    }
+}
